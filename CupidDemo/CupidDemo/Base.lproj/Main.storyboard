@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9060" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="8HW-IJ-EAy">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9051"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--Navigation Controller-->
+        <scene sceneID="fvE-sz-DaU">
+            <objects>
+                <navigationController storyboardIdentifier="rootNavigationController" automaticallyAdjustsScrollViewInsets="NO" useStoryboardIdentifierAsRestorationIdentifier="YES" id="8HW-IJ-EAy" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="yMR-3Z-OnT">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <animations/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="Zic-3R-iXj" kind="relationship" relationship="rootViewController" id="5bt-2h-lbf"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="RiK-4W-qIF" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="269" y="-377"/>
+        </scene>
+        <!--Cupid-->
+        <scene sceneID="8bJ-QK-yfV">
+            <objects>
+                <viewController id="Zic-3R-iXj" customClass="MainViewController" customModule="CupidDemo" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="cnv-EY-Tog"/>
+                        <viewControllerLayoutGuide type="bottom" id="BBL-jS-CKO"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="04X-Fe-8Pg">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7bN-ff-eEU" userLabel="Wechat Session">
+                                <rect key="frame" x="358" y="315" width="80" height="80"/>
+                                <animations/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="80" id="Hln-a5-bDy"/>
+                                    <constraint firstAttribute="height" constant="80" id="jfy-Ki-mit"/>
+                                </constraints>
+                                <state key="normal" image="sns_share_weixin"/>
+                                <connections>
+                                    <action selector="share:" destination="Zic-3R-iXj" eventType="touchUpInside" id="8if-kW-Uln"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="6" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="c2G-mR-SOY" userLabel="QQ">
+                                <rect key="frame" x="162" y="315" width="80" height="80"/>
+                                <animations/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="80" id="JkG-d3-4iR"/>
+                                    <constraint firstAttribute="height" constant="80" id="VIa-Ln-8Bz"/>
+                                </constraints>
+                                <state key="normal" image="sns_share_qq"/>
+                                <connections>
+                                    <action selector="share:" destination="Zic-3R-iXj" eventType="touchUpInside" id="Sv0-s2-DCe"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hDU-Mg-iaF" userLabel="Alipay">
+                                <rect key="frame" x="358" y="205" width="80" height="80"/>
+                                <animations/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="80" id="4DB-sm-FXc"/>
+                                    <constraint firstAttribute="width" constant="80" id="n2E-mg-CsZ"/>
+                                </constraints>
+                                <state key="normal" image="sns_share_alipay"/>
+                                <connections>
+                                    <action selector="share:" destination="Zic-3R-iXj" eventType="touchUpInside" id="MOj-Kr-FB5"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="d1I-kJ-Vr7" userLabel="Copy">
+                                <rect key="frame" x="260" y="205" width="80" height="80"/>
+                                <animations/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="80" id="Q4J-KA-UtT"/>
+                                    <constraint firstAttribute="height" constant="80" id="kcy-4d-IVS"/>
+                                </constraints>
+                                <state key="normal" image="sns_share_copy"/>
+                                <connections>
+                                    <action selector="share:" destination="Zic-3R-iXj" eventType="touchUpInside" id="j9b-em-2dY"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5PJ-JE-o5s" userLabel="Weibo">
+                                <rect key="frame" x="162" y="205" width="80" height="80"/>
+                                <animations/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="80" id="Yeb-eK-p9s"/>
+                                    <constraint firstAttribute="height" constant="80" id="lt0-hb-B09"/>
+                                </constraints>
+                                <state key="normal" image="sns_share_weibo"/>
+                                <connections>
+                                    <action selector="share:" destination="Zic-3R-iXj" eventType="touchUpInside" id="0kr-lU-ugf"/>
+                                </connections>
+                            </button>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="KLI-nt-QYg">
+                                <rect key="frame" x="20" y="141" width="560" height="29"/>
+                                <animations/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="28" id="ayZ-X8-9b9"/>
+                                </constraints>
+                                <segments>
+                                    <segment title="URL"/>
+                                    <segment title="Image"/>
+                                    <segment title="Audio"/>
+                                    <segment title="Video"/>
+                                </segments>
+                                <connections>
+                                    <action selector="chooseMedia:" destination="Zic-3R-iXj" eventType="valueChanged" id="aIn-qw-poV"/>
+                                </connections>
+                            </segmentedControl>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="R0J-ON-7BL">
+                                <rect key="frame" x="20" y="87" width="560" height="29"/>
+                                <animations/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="28" id="XWS-kk-i7V"/>
+                                </constraints>
+                                <segments>
+                                    <segment title="Share"/>
+                                    <segment title="OAuth"/>
+                                </segments>
+                                <connections>
+                                    <action selector="toggleShareOAuth:" destination="Zic-3R-iXj" eventType="valueChanged" id="M5k-qf-7sn"/>
+                                </connections>
+                            </segmentedControl>
+                            <button opaque="NO" tag="5" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="B96-TT-q8r" userLabel="Wechat Timeline">
+                                <rect key="frame" x="260" y="315" width="80" height="80"/>
+                                <animations/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="80" id="Jyr-kF-oFg"/>
+                                    <constraint firstAttribute="width" constant="80" id="i9H-FN-8dd"/>
+                                </constraints>
+                                <state key="normal" image="sns_share_friends"/>
+                                <connections>
+                                    <action selector="share:" destination="Zic-3R-iXj" eventType="touchUpInside" id="zFF-lH-dot"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="R0J-ON-7BL" firstAttribute="top" secondItem="cnv-EY-Tog" secondAttribute="bottom" constant="23" id="0mM-b8-eWc"/>
+                            <constraint firstItem="B96-TT-q8r" firstAttribute="top" secondItem="d1I-kJ-Vr7" secondAttribute="bottom" constant="30" id="18p-Od-Y3T"/>
+                            <constraint firstItem="B96-TT-q8r" firstAttribute="leading" secondItem="c2G-mR-SOY" secondAttribute="trailing" constant="18" id="3g1-Rp-O2e"/>
+                            <constraint firstItem="R0J-ON-7BL" firstAttribute="centerX" secondItem="04X-Fe-8Pg" secondAttribute="centerX" id="3vW-sH-NUV"/>
+                            <constraint firstItem="5PJ-JE-o5s" firstAttribute="centerY" secondItem="d1I-kJ-Vr7" secondAttribute="centerY" id="HUQ-pr-8VI"/>
+                            <constraint firstItem="d1I-kJ-Vr7" firstAttribute="top" secondItem="KLI-nt-QYg" secondAttribute="bottom" constant="36" id="IB9-mG-1co"/>
+                            <constraint firstItem="d1I-kJ-Vr7" firstAttribute="centerX" secondItem="KLI-nt-QYg" secondAttribute="centerX" id="P78-aL-Szd"/>
+                            <constraint firstItem="R0J-ON-7BL" firstAttribute="leading" secondItem="04X-Fe-8Pg" secondAttribute="leadingMargin" id="PUe-Mb-Rh9"/>
+                            <constraint firstItem="B96-TT-q8r" firstAttribute="centerX" secondItem="d1I-kJ-Vr7" secondAttribute="centerX" id="T4Y-xK-Sy0"/>
+                            <constraint firstItem="7bN-ff-eEU" firstAttribute="centerY" secondItem="B96-TT-q8r" secondAttribute="centerY" id="TnX-kQ-Ma9"/>
+                            <constraint firstItem="KLI-nt-QYg" firstAttribute="centerX" secondItem="R0J-ON-7BL" secondAttribute="centerX" id="VcA-BD-6FM"/>
+                            <constraint firstItem="KLI-nt-QYg" firstAttribute="top" secondItem="R0J-ON-7BL" secondAttribute="bottom" constant="26" id="YSi-es-xHj"/>
+                            <constraint firstItem="d1I-kJ-Vr7" firstAttribute="leading" secondItem="5PJ-JE-o5s" secondAttribute="trailing" constant="18" id="ajb-PP-IWc"/>
+                            <constraint firstItem="R0J-ON-7BL" firstAttribute="trailing" secondItem="04X-Fe-8Pg" secondAttribute="trailingMargin" id="bp9-ne-a4m"/>
+                            <constraint firstItem="7bN-ff-eEU" firstAttribute="leading" secondItem="B96-TT-q8r" secondAttribute="trailing" constant="18" id="gl9-PZ-hft"/>
+                            <constraint firstItem="c2G-mR-SOY" firstAttribute="centerY" secondItem="B96-TT-q8r" secondAttribute="centerY" id="hK9-Io-fgu"/>
+                            <constraint firstItem="KLI-nt-QYg" firstAttribute="width" secondItem="R0J-ON-7BL" secondAttribute="width" id="ko9-LE-nkx"/>
+                            <constraint firstItem="hDU-Mg-iaF" firstAttribute="centerY" secondItem="d1I-kJ-Vr7" secondAttribute="centerY" id="ob1-HH-esO"/>
+                            <constraint firstItem="hDU-Mg-iaF" firstAttribute="leading" secondItem="d1I-kJ-Vr7" secondAttribute="trailing" constant="18" id="qVy-Hc-feg"/>
+                            <constraint firstItem="KLI-nt-QYg" firstAttribute="height" secondItem="R0J-ON-7BL" secondAttribute="height" id="yWP-JG-2yR"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Cupid" id="pzH-uj-mZE"/>
+                    <connections>
+                        <outlet property="mediaTypeSegmentControl" destination="KLI-nt-QYg" id="GeN-5B-qRg"/>
+                        <outlet property="shareOrOAuthSegmentControl" destination="R0J-ON-7BL" id="NhV-Ni-7Ee"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4SV-e0-cgD" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="913" y="-377"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="sns_share_alipay" width="58" height="58"/>
+        <image name="sns_share_copy" width="58" height="58"/>
+        <image name="sns_share_friends" width="58" height="58"/>
+        <image name="sns_share_qq" width="58" height="58"/>
+        <image name="sns_share_weibo" width="58" height="58"/>
+        <image name="sns_share_weixin" width="58" height="58"/>
+    </resources>
+</document>
