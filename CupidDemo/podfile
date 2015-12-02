@@ -1,0 +1,15 @@
+platform :ios, '8.0'
+use_frameworks!
+
+target 'CupidDemo' do
+pod "StatusBarNotificationCenter"
+end
+
+target 'CupidDemoTests' do
+
+end
+
+target 'CupidDemoUITests' do
+
+end
+
