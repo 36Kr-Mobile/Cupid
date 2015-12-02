@@ -1,3 +1,8 @@
+<p>
+<a href="http://cocoadocs.org/docsets/Cupid"><img src="https://img.shields.io/cocoapods/v/Cupid.svg?style=flat"></a>
+<a href="https://github.com/Carthage/Carthage/"><img src="https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat"></a>
+</p>
+
 # Cupid
 
 Just like [openshare](https://github.com/100apps/openshare) and [MonkeyKing](https://github.com/nixzhu/MonkeyKing.git), Cupid helps you post messages or do OAuth to Social Networks. And more service providers is on the schedule. In fact, the network interface is the same as `MonkeyKing`. So why a new share SDK?
@@ -8,7 +13,7 @@ Just like [openshare](https://github.com/100apps/openshare) and [MonkeyKing](htt
 4. This library used many structs to construct the information channel, and use enums to construct information payload! No more singletons to reside in memory!
 5. Protocols to extend custom functionality.
 
-You can check [this article in Chinese]() to learn more about share architecture in our coming new version client.
+You can check [this article in Chinese... en, working, I will update this when it is available]() to learn more about share architecture in our coming new version client.
 
 **Not like demo of many library, this library's demo's logic is very similar to our architecture in our in programming new version client. The `MainViewController` is just like share sheet, though our client is coming with a much more beautiful interface. The `ShareManager` is our central hub for communication between the library and our app logic. The [NotificationManager](https://github.com/36Kr-Mobile/StatusBarNotificationCenter) is used for notification. So this demo does not show all the functionality of this library**
 
