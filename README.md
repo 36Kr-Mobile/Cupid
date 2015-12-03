@@ -13,7 +13,7 @@ Just like [openshare](https://github.com/100apps/openshare) and [MonkeyKing](htt
 4. This library used many structs to construct the information channel, and use enums to construct information payload! No more singletons to reside in memory!
 5. Protocols to extend custom functionality.
 
-You can check [this article in Chinese... en, working, I will update this when it is available]() to learn more about share architecture in our coming new version client.
+You can check [this article in Chinese](http://www.jianshu.com/p/bfa456a40d5f) to learn more about share architecture in our coming new version client.
 
 **Not like demo of many library, this library's demo's logic is very similar to our architecture in our in programming new version client. The `MainViewController` is just like share sheet, though our client is coming with a much more beautiful interface. The `ShareManager` is our central hub for communication between the library and our app logic. The [NotificationManager](https://github.com/36Kr-Mobile/StatusBarNotificationCenter) is used for notification. So this demo does not show all the functionality of this library**
 
