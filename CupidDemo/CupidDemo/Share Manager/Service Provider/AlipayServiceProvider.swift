@@ -25,7 +25,7 @@ class AlipayServiceProvider: ShareServiceProvider {
         APOpenAPI.registerApp(ShareManager.Alipay.appKey)
     }
     
-    private static var appInstalled: Bool {
+    static var appInstalled: Bool {
         return APOpenAPI.isAPAppInstalled() && APOpenAPI.isAPAppSupportOpenApi()
     }
     

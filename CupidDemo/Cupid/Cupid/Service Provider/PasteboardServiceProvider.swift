@@ -14,6 +14,10 @@ public class PasteboardServiceProvider: ShareServiceProvider {
     public static var canOAuth: Bool {
         return false
     }
+    
+    public static var appInstalled: Bool {
+        return true
+    }
 
     /// Always nil
     public let oauthCompletionHandler: NetworkResponseHandler? = nil

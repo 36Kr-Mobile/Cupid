@@ -10,7 +10,7 @@ import UIKit
 
 ///This service provider is used to oauth and share content to Weibo, check [this website](http://open.weibo.com) to learn more
 public class WeiboServiceProvier: ShareServiceProvider {
-    static var appInstalled: Bool {
+    public static var appInstalled: Bool {
         return URLHandler.canOpenURL(NSURL(string: "weibosdk://request"))
     }
     

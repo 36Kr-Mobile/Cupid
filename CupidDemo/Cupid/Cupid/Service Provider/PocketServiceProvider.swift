@@ -58,7 +58,7 @@ public class PocketServiceProvider: ShareServiceProvider {
         return PocketServiceProvider.canShareContent(content)
     }
 
-    static var appInstalled: Bool {
+    public static var appInstalled: Bool {
         return URLHandler.canOpenURL(NSURL(string: "pocket-oauth-v1://"))
     }
     

@@ -18,7 +18,7 @@ public class QQServiceProvider: ShareServiceProvider {
         case QZone = 1
     }
 
-    static var appInstalled: Bool {
+    public static var appInstalled: Bool {
         return URLHandler.canOpenURL(NSURL(string: "mqqapi://"))
     }
     

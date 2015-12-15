@@ -19,7 +19,8 @@ public protocol ShareServiceProvider: class {
     /// Used to check if the content is sharable
     static func canShareContent(content: Content) -> Bool
     func canShareContent(content: Content) -> Bool
-
+    /// Check if app is installed
+    static var appInstalled: Bool { get }
     /// Used for OAuth callback
     var oauthCompletionHandler: NetworkResponseHandler? { get }
     /// Share content to service provider
@@ -28,6 +29,12 @@ public protocol ShareServiceProvider: class {
     func OAuth(completionHandler: NetworkResponseHandler) throws
     /// Callback after share or OAuth
     func handleOpenURL(URL: NSURL) -> Bool?
+}
+
+extension ShareServiceProvider {
+    public static var appInstalled: Bool  {
+        return false
+    }
 }
 
 /// Errors thrown in OAuth or share process

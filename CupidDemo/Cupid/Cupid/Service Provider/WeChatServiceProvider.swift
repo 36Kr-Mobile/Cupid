@@ -18,7 +18,7 @@ public class WeChatServiceProvier: ShareServiceProvider {
         case Timeline = 1
     }
 
-    static var appInstalled: Bool {
+    public static var appInstalled: Bool {
         return URLHandler.canOpenURL(NSURL(string: "weixin://"))
     }
     
