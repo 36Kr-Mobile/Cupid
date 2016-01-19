@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name        = "Cupid"
-  s.version     = "1.0.2"
+  s.version     = "1.0.3"
   s.summary     = "Cupid is the ultimate Swift library to deal with third party share service for Chinese app."
 
   s.description = <<-DESC
