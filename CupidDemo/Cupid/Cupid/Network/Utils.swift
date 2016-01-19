@@ -66,3 +66,20 @@ extension NSURL {
         return info
     }
 }
+
+extension UIImage {
+    var imageForShare: UIImage {
+        get {
+            let width: CGFloat = 90.0
+            let height = size.height / size.width * 90.0
+            let newSize = CGSize(width: width, height: height)
+            UIGraphicsBeginImageContextWithOptions(newSize, false, 0)
+            drawInRect(CGRect(origin: CGPointZero, size: newSize))
+            
+            let scaledImage = UIGraphicsGetImageFromCurrentImageContext()
+            UIGraphicsEndImageContext()
+            
+            return scaledImage
+        }
+    }
+}

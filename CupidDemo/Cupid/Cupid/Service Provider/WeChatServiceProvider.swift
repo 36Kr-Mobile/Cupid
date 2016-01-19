@@ -84,7 +84,7 @@ public class WeChatServiceProvier: ShareServiceProvider {
             weChatMessageInfo["description"] = description
         }
 
-        if let thumbnailImage = content.thumbnail,
+        if let thumbnailImage = content.thumbnail?.imageForShare,
            let thumbnailData = UIImageJPEGRepresentation(thumbnailImage, 0.5) {
             weChatMessageInfo["thumbData"] = thumbnailData
         }
