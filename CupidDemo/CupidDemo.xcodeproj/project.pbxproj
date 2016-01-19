@@ -11,11 +11,7 @@
 		61E1A34F1C0E9A2600A25B3E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 61E1A34D1C0E9A2600A25B3E /* Main.storyboard */; };
 		61E1A3511C0E9A2600A25B3E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 61E1A3501C0E9A2600A25B3E /* Assets.xcassets */; };
 		61E1A3541C0E9A2600A25B3E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 61E1A3521C0E9A2600A25B3E /* LaunchScreen.storyboard */; };
-		61E1A35F1C0E9A2600A25B3E /* CupidDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61E1A35E1C0E9A2600A25B3E /* CupidDemoTests.swift */; };
-		61E1A36A1C0E9A2600A25B3E /* CupidDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61E1A3691C0E9A2600A25B3E /* CupidDemoUITests.swift */; };
 		61E1A37F1C0E9CCC00A25B3E /* Cupid.h in Headers */ = {isa = PBXBuildFile; fileRef = 61E1A37E1C0E9CCC00A25B3E /* Cupid.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		61E1A3861C0E9CCC00A25B3E /* Cupid.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 61E1A37C1C0E9CCC00A25B3E /* Cupid.framework */; };
-		61E1A38D1C0E9CCC00A25B3E /* CupidTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61E1A38C1C0E9CCC00A25B3E /* CupidTests.swift */; };
 		61E1A3911C0E9CCC00A25B3E /* Cupid.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 61E1A37C1C0E9CCC00A25B3E /* Cupid.framework */; };
 		61E1A3921C0E9CCC00A25B3E /* Cupid.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 61E1A37C1C0E9CCC00A25B3E /* Cupid.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		61E1A3AB1C0E9CF600A25B3E /* ShareActivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61E1A39C1C0E9CF600A25B3E /* ShareActivity.swift */; };
@@ -41,34 +37,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		61E1A35B1C0E9A2600A25B3E /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 61E1A33E1C0E9A2600A25B3E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 61E1A3451C0E9A2600A25B3E;
-			remoteInfo = CupidDemo;
-		};
-		61E1A3661C0E9A2600A25B3E /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 61E1A33E1C0E9A2600A25B3E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 61E1A3451C0E9A2600A25B3E;
-			remoteInfo = CupidDemo;
-		};
-		61E1A3871C0E9CCC00A25B3E /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 61E1A33E1C0E9A2600A25B3E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 61E1A37B1C0E9CCC00A25B3E;
-			remoteInfo = Cupid;
-		};
-		61E1A3891C0E9CCC00A25B3E /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 61E1A33E1C0E9A2600A25B3E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 61E1A3451C0E9A2600A25B3E;
-			remoteInfo = CupidDemo;
-		};
 		61E1A38F1C0E9CCC00A25B3E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 61E1A33E1C0E9A2600A25B3E /* Project object */;
@@ -99,18 +67,9 @@
 		61E1A3501C0E9A2600A25B3E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		61E1A3531C0E9A2600A25B3E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		61E1A3551C0E9A2600A25B3E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		61E1A35A1C0E9A2600A25B3E /* CupidDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CupidDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		61E1A35E1C0E9A2600A25B3E /* CupidDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CupidDemoTests.swift; sourceTree = "<group>"; };
-		61E1A3601C0E9A2600A25B3E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		61E1A3651C0E9A2600A25B3E /* CupidDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CupidDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		61E1A3691C0E9A2600A25B3E /* CupidDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CupidDemoUITests.swift; sourceTree = "<group>"; };
-		61E1A36B1C0E9A2600A25B3E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		61E1A37C1C0E9CCC00A25B3E /* Cupid.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Cupid.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		61E1A37E1C0E9CCC00A25B3E /* Cupid.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Cupid.h; sourceTree = "<group>"; };
 		61E1A3801C0E9CCC00A25B3E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		61E1A3851C0E9CCC00A25B3E /* CupidTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CupidTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		61E1A38C1C0E9CCC00A25B3E /* CupidTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CupidTests.swift; sourceTree = "<group>"; };
-		61E1A38E1C0E9CCC00A25B3E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		61E1A39C1C0E9CF600A25B3E /* ShareActivity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShareActivity.swift; sourceTree = "<group>"; };
 		61E1A39D1C0E9CF600A25B3E /* Content.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Content.swift; path = Cupid/Content.swift; sourceTree = "<group>"; };
 		61E1A39E1C0E9CF600A25B3E /* Cupid.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Cupid.swift; path = Cupid/Cupid.swift; sourceTree = "<group>"; };
@@ -149,32 +108,10 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		61E1A3571C0E9A2600A25B3E /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		61E1A3621C0E9A2600A25B3E /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		61E1A3781C0E9CCC00A25B3E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		61E1A3821C0E9CCC00A25B3E /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				61E1A3861C0E9CCC00A25B3E /* Cupid.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -193,10 +130,7 @@
 			isa = PBXGroup;
 			children = (
 				61E1A3481C0E9A2600A25B3E /* CupidDemo */,
-				61E1A35D1C0E9A2600A25B3E /* CupidDemoTests */,
-				61E1A3681C0E9A2600A25B3E /* CupidDemoUITests */,
 				61E1A37D1C0E9CCC00A25B3E /* Cupid */,
-				61E1A38B1C0E9CCC00A25B3E /* CupidTests */,
 				61E1A3471C0E9A2600A25B3E /* Products */,
 				B483FCA148749E97D8BA0660 /* Pods */,
 				32F263A3681A20C95A00E085 /* Frameworks */,
@@ -207,10 +141,7 @@
 			isa = PBXGroup;
 			children = (
 				61E1A3461C0E9A2600A25B3E /* CupidDemo.app */,
-				61E1A35A1C0E9A2600A25B3E /* CupidDemoTests.xctest */,
-				61E1A3651C0E9A2600A25B3E /* CupidDemoUITests.xctest */,
 				61E1A37C1C0E9CCC00A25B3E /* Cupid.framework */,
-				61E1A3851C0E9CCC00A25B3E /* CupidTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -229,24 +160,6 @@
 			path = CupidDemo;
 			sourceTree = "<group>";
 		};
-		61E1A35D1C0E9A2600A25B3E /* CupidDemoTests */ = {
-			isa = PBXGroup;
-			children = (
-				61E1A35E1C0E9A2600A25B3E /* CupidDemoTests.swift */,
-				61E1A3601C0E9A2600A25B3E /* Info.plist */,
-			);
-			path = CupidDemoTests;
-			sourceTree = "<group>";
-		};
-		61E1A3681C0E9A2600A25B3E /* CupidDemoUITests */ = {
-			isa = PBXGroup;
-			children = (
-				61E1A3691C0E9A2600A25B3E /* CupidDemoUITests.swift */,
-				61E1A36B1C0E9A2600A25B3E /* Info.plist */,
-			);
-			path = CupidDemoUITests;
-			sourceTree = "<group>";
-		};
 		61E1A37D1C0E9CCC00A25B3E /* Cupid */ = {
 			isa = PBXGroup;
 			children = (
@@ -259,15 +172,6 @@
 				61E1A3B81C0E9CFC00A25B3E /* Supporting Files */,
 			);
 			path = Cupid;
-			sourceTree = "<group>";
-		};
-		61E1A38B1C0E9CCC00A25B3E /* CupidTests */ = {
-			isa = PBXGroup;
-			children = (
-				61E1A38C1C0E9CCC00A25B3E /* CupidTests.swift */,
-				61E1A38E1C0E9CCC00A25B3E /* Info.plist */,
-			);
-			path = CupidTests;
 			sourceTree = "<group>";
 		};
 		61E1A39B1C0E9CF600A25B3E /* Activity */ = {
@@ -413,42 +317,6 @@
 			productReference = 61E1A3461C0E9A2600A25B3E /* CupidDemo.app */;
 			productType = "com.apple.product-type.application";
 		};
-		61E1A3591C0E9A2600A25B3E /* CupidDemoTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 61E1A3711C0E9A2600A25B3E /* Build configuration list for PBXNativeTarget "CupidDemoTests" */;
-			buildPhases = (
-				61E1A3561C0E9A2600A25B3E /* Sources */,
-				61E1A3571C0E9A2600A25B3E /* Frameworks */,
-				61E1A3581C0E9A2600A25B3E /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				61E1A35C1C0E9A2600A25B3E /* PBXTargetDependency */,
-			);
-			name = CupidDemoTests;
-			productName = CupidDemoTests;
-			productReference = 61E1A35A1C0E9A2600A25B3E /* CupidDemoTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		61E1A3641C0E9A2600A25B3E /* CupidDemoUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 61E1A3741C0E9A2600A25B3E /* Build configuration list for PBXNativeTarget "CupidDemoUITests" */;
-			buildPhases = (
-				61E1A3611C0E9A2600A25B3E /* Sources */,
-				61E1A3621C0E9A2600A25B3E /* Frameworks */,
-				61E1A3631C0E9A2600A25B3E /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				61E1A3671C0E9A2600A25B3E /* PBXTargetDependency */,
-			);
-			name = CupidDemoUITests;
-			productName = CupidDemoUITests;
-			productReference = 61E1A3651C0E9A2600A25B3E /* CupidDemoUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 		61E1A37B1C0E9CCC00A25B3E /* Cupid */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 61E1A3971C0E9CCC00A25B3E /* Build configuration list for PBXNativeTarget "Cupid" */;
@@ -467,25 +335,6 @@
 			productReference = 61E1A37C1C0E9CCC00A25B3E /* Cupid.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		61E1A3841C0E9CCC00A25B3E /* CupidTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 61E1A3991C0E9CCC00A25B3E /* Build configuration list for PBXNativeTarget "CupidTests" */;
-			buildPhases = (
-				61E1A3811C0E9CCC00A25B3E /* Sources */,
-				61E1A3821C0E9CCC00A25B3E /* Frameworks */,
-				61E1A3831C0E9CCC00A25B3E /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				61E1A3881C0E9CCC00A25B3E /* PBXTargetDependency */,
-				61E1A38A1C0E9CCC00A25B3E /* PBXTargetDependency */,
-			);
-			name = CupidTests;
-			productName = CupidTests;
-			productReference = 61E1A3851C0E9CCC00A25B3E /* CupidTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -499,20 +348,8 @@
 					61E1A3451C0E9A2600A25B3E = {
 						CreatedOnToolsVersion = 7.1.1;
 					};
-					61E1A3591C0E9A2600A25B3E = {
-						CreatedOnToolsVersion = 7.1.1;
-						TestTargetID = 61E1A3451C0E9A2600A25B3E;
-					};
-					61E1A3641C0E9A2600A25B3E = {
-						CreatedOnToolsVersion = 7.1.1;
-						TestTargetID = 61E1A3451C0E9A2600A25B3E;
-					};
 					61E1A37B1C0E9CCC00A25B3E = {
 						CreatedOnToolsVersion = 7.1.1;
-					};
-					61E1A3841C0E9CCC00A25B3E = {
-						CreatedOnToolsVersion = 7.1.1;
-						TestTargetID = 61E1A3451C0E9A2600A25B3E;
 					};
 				};
 			};
@@ -530,10 +367,7 @@
 			projectRoot = "";
 			targets = (
 				61E1A3451C0E9A2600A25B3E /* CupidDemo */,
-				61E1A3591C0E9A2600A25B3E /* CupidDemoTests */,
-				61E1A3641C0E9A2600A25B3E /* CupidDemoUITests */,
 				61E1A37B1C0E9CCC00A25B3E /* Cupid */,
-				61E1A3841C0E9CCC00A25B3E /* CupidTests */,
 			);
 		};
 /* End PBXProject section */
@@ -549,28 +383,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		61E1A3581C0E9A2600A25B3E /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		61E1A3631C0E9A2600A25B3E /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		61E1A37A1C0E9CCC00A25B3E /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		61E1A3831C0E9CCC00A25B3E /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -641,22 +454,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		61E1A3561C0E9A2600A25B3E /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				61E1A35F1C0E9A2600A25B3E /* CupidDemoTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		61E1A3611C0E9A2600A25B3E /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				61E1A36A1C0E9A2600A25B3E /* CupidDemoUITests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		61E1A3771C0E9CCC00A25B3E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -677,37 +474,9 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		61E1A3811C0E9CCC00A25B3E /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				61E1A38D1C0E9CCC00A25B3E /* CupidTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		61E1A35C1C0E9A2600A25B3E /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 61E1A3451C0E9A2600A25B3E /* CupidDemo */;
-			targetProxy = 61E1A35B1C0E9A2600A25B3E /* PBXContainerItemProxy */;
-		};
-		61E1A3671C0E9A2600A25B3E /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 61E1A3451C0E9A2600A25B3E /* CupidDemo */;
-			targetProxy = 61E1A3661C0E9A2600A25B3E /* PBXContainerItemProxy */;
-		};
-		61E1A3881C0E9CCC00A25B3E /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 61E1A37B1C0E9CCC00A25B3E /* Cupid */;
-			targetProxy = 61E1A3871C0E9CCC00A25B3E /* PBXContainerItemProxy */;
-		};
-		61E1A38A1C0E9CCC00A25B3E /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 61E1A3451C0E9A2600A25B3E /* CupidDemo */;
-			targetProxy = 61E1A3891C0E9CCC00A25B3E /* PBXContainerItemProxy */;
-		};
 		61E1A3901C0E9CCC00A25B3E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 61E1A37B1C0E9CCC00A25B3E /* Cupid */;
@@ -862,54 +631,6 @@
 			};
 			name = Release;
 		};
-		61E1A3721C0E9A2600A25B3E /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = CupidDemoTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.36kr.ios.CupidDemoTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CupidDemo.app/CupidDemo";
-			};
-			name = Debug;
-		};
-		61E1A3731C0E9A2600A25B3E /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = CupidDemoTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.36kr.ios.CupidDemoTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CupidDemo.app/CupidDemo";
-			};
-			name = Release;
-		};
-		61E1A3751C0E9A2600A25B3E /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				INFOPLIST_FILE = CupidDemoUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.36kr.ios.CupidDemoUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_TARGET_NAME = CupidDemo;
-				USES_XCTRUNNER = YES;
-			};
-			name = Debug;
-		};
-		61E1A3761C0E9A2600A25B3E /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				INFOPLIST_FILE = CupidDemoUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.36kr.ios.CupidDemoUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_TARGET_NAME = CupidDemo;
-				USES_XCTRUNNER = YES;
-			};
-			name = Release;
-		};
 		61E1A3931C0E9CCC00A25B3E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -952,28 +673,6 @@
 			};
 			name = Release;
 		};
-		61E1A3951C0E9CCC00A25B3E /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				INFOPLIST_FILE = CupidTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.36kr.ios.CupidTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CupidDemo.app/CupidDemo";
-			};
-			name = Debug;
-		};
-		61E1A3961C0E9CCC00A25B3E /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				INFOPLIST_FILE = CupidTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.36kr.ios.CupidTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CupidDemo.app/CupidDemo";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -995,38 +694,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		61E1A3711C0E9A2600A25B3E /* Build configuration list for PBXNativeTarget "CupidDemoTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				61E1A3721C0E9A2600A25B3E /* Debug */,
-				61E1A3731C0E9A2600A25B3E /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		61E1A3741C0E9A2600A25B3E /* Build configuration list for PBXNativeTarget "CupidDemoUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				61E1A3751C0E9A2600A25B3E /* Debug */,
-				61E1A3761C0E9A2600A25B3E /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		61E1A3971C0E9CCC00A25B3E /* Build configuration list for PBXNativeTarget "Cupid" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				61E1A3931C0E9CCC00A25B3E /* Debug */,
 				61E1A3941C0E9CCC00A25B3E /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		61E1A3991C0E9CCC00A25B3E /* Build configuration list for PBXNativeTarget "CupidTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				61E1A3951C0E9CCC00A25B3E /* Debug */,
-				61E1A3961C0E9CCC00A25B3E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
