@@ -122,7 +122,7 @@ public class WeiboServiceProvier: ShareServiceProvider {
             let uuIDString = CFUUIDCreateString(nil, CFUUIDCreate(nil))
             let dict = ["__class": "WBSendMessageToWeiboRequest", "message": messageInfo, "requestID": uuIDString]
 
-            let messageData: [AnyObject] = [["transferObject": NSKeyedArchiver.archivedDataWithRootObject(dict)], ["userInfo": NSKeyedArchiver.archivedDataWithRootObject([])], ["app": NSKeyedArchiver.archivedDataWithRootObject(["appKey": appID, "bundleID": NSBundle.mainBundle().bundleID ?? ""])]]
+            let messageData: [AnyObject] = [["transferObject": NSKeyedArchiver.archivedDataWithRootObject(dict)], ["app": NSKeyedArchiver.archivedDataWithRootObject(["appKey": appID, "bundleID": NSBundle.mainBundle().bundleID ?? ""])]]
 
             UIPasteboard.generalPasteboard().items = messageData
 
