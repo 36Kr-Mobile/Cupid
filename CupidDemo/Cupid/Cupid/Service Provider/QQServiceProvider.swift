@@ -104,7 +104,7 @@ public class QQServiceProvider: ShareServiceProvider {
         if let media = content.media {
 
             func handleNewsWithURL(URL: NSURL, mediaType: String?) throws {
-                if let thumbnail = content.thumbnail?.imageForShare, thumbnailData = UIImageJPEGRepresentation(thumbnail, 1) {
+                if let thumbnail = content.thumbnail, thumbnailData = UIImageJPEGRepresentation(thumbnail, 1) {
                     let dic = ["previewimagedata": thumbnailData]
                     let data = NSKeyedArchiver.archivedDataWithRootObject(dic)
                     UIPasteboard.generalPasteboard().setData(data, forPasteboardType: "com.tencent.mqq.api.apiLargeData")
@@ -132,7 +132,7 @@ public class QQServiceProvider: ShareServiceProvider {
                         throw ShareError.FormattingError
                     }
                     var dic = ["file_data": imageData, ]
-                    if let thumbnail = content.thumbnail?.imageForShare, thumbnailData = UIImageJPEGRepresentation(thumbnail, 1) {
+                    if let thumbnail = content.thumbnail, thumbnailData = UIImageJPEGRepresentation(thumbnail, 1) {
                         dic["previewimagedata"] = thumbnailData
                     }
                     let data = NSKeyedArchiver.archivedDataWithRootObject(dic)

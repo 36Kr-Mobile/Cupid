@@ -23,11 +23,39 @@ public struct Content {
     }
 
     /// Te title of the content
-    public var title: String?
+    public var title: String? {
+        set {
+            internalTitle = title
+        }
+        get {
+            return internalTitle ?? ""
+        }
+    }
+    var internalTitle: String?
+    
     /// The description of the content
-    public var description: String?
+    public var description: String? {
+        set {
+            internalDescription = description
+        }
+        get {
+            return internalDescription ?? ""
+        }
+    }
+    var internalDescription: String?
+
+    
     /// The thumbnail of the content
-    public var thumbnail: UIImage?
+    public var thumbnail: UIImage? {
+        set {
+            internalThumbnail = thumbnail
+        }
+        get {
+            return internalThumbnail?.imageForShare
+        }
+    }
+    var internalThumbnail: UIImage?
+
     /// The media payload of the content
     public var media: Media?
 

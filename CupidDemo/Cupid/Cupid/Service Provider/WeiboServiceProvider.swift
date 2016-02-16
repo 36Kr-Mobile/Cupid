@@ -98,7 +98,7 @@ public class WeiboServiceProvier: ShareServiceProvider {
                             mediaObject["title"] = title
                         }
 
-                        if let thumbnailImage = content.thumbnail?.imageForShare, let thumbnailData = UIImageJPEGRepresentation(thumbnailImage, 0.7) {
+                        if let thumbnailImage = content.thumbnail, let thumbnailData = UIImageJPEGRepresentation(thumbnailImage, 0.7) {
                             mediaObject["thumbnailData"] = thumbnailData
                         }
 
