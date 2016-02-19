@@ -25,7 +25,7 @@ public struct Content {
     /// Te title of the content
     public var title: String? {
         set {
-            internalTitle = title
+            internalTitle = newValue
         }
         get {
             return internalTitle ?? ""
@@ -36,7 +36,7 @@ public struct Content {
     /// The description of the content
     public var description: String? {
         set {
-            internalDescription = description
+            internalDescription = newValue
         }
         get {
             return internalDescription ?? ""
@@ -48,7 +48,7 @@ public struct Content {
     /// The thumbnail of the content
     public var thumbnail: UIImage? {
         set {
-            internalThumbnail = thumbnail
+            internalThumbnail = newValue
         }
         get {
             return internalThumbnail?.imageForShare
