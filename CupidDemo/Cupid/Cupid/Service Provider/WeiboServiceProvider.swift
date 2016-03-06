@@ -85,8 +85,8 @@ public class WeiboServiceProvier: ShareServiceProvider {
         guard !URLHandler.canOpenURL(NSURL(string: "weibosdk://request")) else {
             var messageInfo: [String:AnyObject] = ["__class": "WBMessageObject"]
 
-            if let description = content.description {
-                messageInfo["text"] = description
+            if let title = content.title {
+                messageInfo["text"] = title
             }
 
             if let media = content.media {
@@ -94,8 +94,8 @@ public class WeiboServiceProvier: ShareServiceProvider {
                     case .URL(let URL):
                         var mediaObject: [String:AnyObject] = ["__class": "WBWebpageObject", "objectID": "identifier1"]
 
-                        if let title = content.title {
-                            mediaObject["title"] = title
+                        if let desc = content.description {
+                            mediaObject["title"] = description
                         }
 
                         if let thumbnailImage = content.thumbnail, let thumbnailData = UIImageJPEGRepresentation(thumbnailImage, 0.7) {
